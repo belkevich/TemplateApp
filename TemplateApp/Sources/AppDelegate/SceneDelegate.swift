@@ -18,7 +18,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: scene)
         window?.rootViewController = UIHostingController(rootView: RootView())
         window?.makeKeyAndVisible()
-        window?.tintColor = .accent
+//        window?.tintColor = .accent
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

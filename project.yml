@@ -1,0 +1,46 @@
+name: TemplateApp
+
+options:
+  deploymentTarget:
+    iOS: 17.0
+  defaultConfig: Release
+  enableBaseInternationalization: false
+  
+settings:
+  base:
+    MARKETING_VERSION: 0.0.1
+    CURRENT_PROJECT_VERSION: 1
+    SWIFT_VERSION: 5
+    ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: true
+    BUNDLE_DISPLAY_NAME: "TemplateApp"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: none
+
+
+targets:
+  TemplateApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: [TemplateApp]
+    scheme:
+      testTargets:
+        - TemplateAppTests
+        - name: TemplateAppTests
+          skipped: true
+
+    settings:
+      base:
+          PRODUCT_BUNDLE_IDENTIFIER: org.team.TemplateApp
+    dependencies:
+      - sdk: Foundation.framework
+        
+  TemplateAppTests:
+    platform: iOS
+    type: bundle.unit-test
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.team.TemplateApp.tests
+    sources: [TemplateAppTests]
+    dependencies:
+      - target: TemplateApp
