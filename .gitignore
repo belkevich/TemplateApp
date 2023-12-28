@@ -5,9 +5,9 @@
 xcuserdata/
 
 # XcodeGen
-# *.pbxproj
-# *.xcodeproj
-# *.xcworkspace
+*.pbxproj
+*.xcodeproj
+*.xcworkspace
 
 # TMP data
 .build/
