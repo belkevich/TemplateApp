@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1510"
+   LastUpgradeVersion = "1430"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      runPostActionsOnFailure = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49623E582B3C5EDF009391DA"
+               BlueprintIdentifier = "FF9475F9CF7E79D6AA9EE50E"
                BuildableName = "TemplateApp.app"
                BlueprintName = "TemplateApp"
                ReferencedContainer = "container:TemplateApp.xcodeproj">
@@ -27,31 +28,40 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      onlyGenerateCoverageForSpecifiedTargets = "NO">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FF9475F9CF7E79D6AA9EE50E"
+            BuildableName = "TemplateApp.app"
+            BlueprintName = "TemplateApp"
+            ReferencedContainer = "container:TemplateApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
+            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49623E6E2B3C5EE0009391DA"
+               BlueprintIdentifier = "D7F282E938DD657137E0C247"
                BuildableName = "TemplateAppTests.xctest"
                BlueprintName = "TemplateAppTests"
                ReferencedContainer = "container:TemplateApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
-            skipped = "YES"
-            parallelizable = "YES">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49623E782B3C5EE0009391DA"
-               BuildableName = "TemplateAppUITests.xctest"
-               BlueprintName = "TemplateAppUITests"
+               BlueprintIdentifier = "D7F282E938DD657137E0C247"
+               BuildableName = "TemplateAppTests.xctest"
+               BlueprintName = "TemplateAppTests"
                ReferencedContainer = "container:TemplateApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -67,12 +77,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "49623E582B3C5EDF009391DA"
+            BlueprintIdentifier = "FF9475F9CF7E79D6AA9EE50E"
             BuildableName = "TemplateApp.app"
             BlueprintName = "TemplateApp"
             ReferencedContainer = "container:TemplateApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -84,12 +96,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "49623E582B3C5EDF009391DA"
+            BlueprintIdentifier = "FF9475F9CF7E79D6AA9EE50E"
             BuildableName = "TemplateApp.app"
             BlueprintName = "TemplateApp"
             ReferencedContainer = "container:TemplateApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
