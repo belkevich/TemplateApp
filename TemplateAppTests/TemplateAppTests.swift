@@ -2,7 +2,7 @@
 //  TemplateAppTests.swift
 //  TemplateAppTests
 //
-//  Created by Oleksii Belkevych on 27.12.2023.
+//  Created by TemplateAuthor on 27.12.2023.
 //
 
 import XCTest

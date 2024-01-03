@@ -2,7 +2,7 @@
 //  RootView.swift
 //  TemplateApp
 //
-//  Created by Oleksii Belkevych on 27.12.2023.
+//  Created by TemplateAuthor on 27.12.2023.
 //
 
 import Foundation
